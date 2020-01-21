@@ -52,7 +52,7 @@ public class Main {
             case 6:
                 ArrayToBoolean arrayToBoolean = new ArrayToBoolean();
                 arrayToBoolean.arrToBool(arrayToBoolean.inputValue());
-            /*case 7:
+            case 7:
                 HowMoney howMoney = new HowMoney();
                 howMoney.decision();
             case 8:
@@ -63,7 +63,7 @@ public class Main {
                 doWhile.doWhileCycle();
             case 10:
                 Cycles forEach = new Cycles();
-                forEach.OutSymbols(forEach.forEachCycle());*/
+                forEach.OutSymbols(forEach.forEachCycle());
             default:
                 break;
         }

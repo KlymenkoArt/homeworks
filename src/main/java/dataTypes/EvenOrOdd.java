@@ -6,8 +6,7 @@ public class EvenOrOdd {
     public int value() {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter value:");
-        int k = in.nextInt();
-        return k;
+        return in.nextInt();
     }
 
         public void calc (int k){

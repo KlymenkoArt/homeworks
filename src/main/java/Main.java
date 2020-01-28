@@ -1,7 +1,11 @@
-import dataTypes.*;
+import dataTypes.ArrayToString;
+import dataTypes.ArrayToBoolean;
+import dataTypes.ArrayPlusHello;
+import dataTypes.Average;
+import dataTypes.EvenOrOdd;
+import dataTypes.Factorial;
 import operators.HowMoney;
 import operators.Cycles;
-
 import java.util.Scanner;
 
 
@@ -41,14 +45,14 @@ public class Main {
                         System.out.println(arrToStr.convertArr(arrToStr.insertArr((countOfElementArray))));
                         break;
                     case 2:
-                        System.out.println((arrToStr.reConv()));
+                        System.out.println((arrToStr.reConvertArr()));
                         break;
                     default:
                         break;
                 }
             case 5:
                 ArrayPlusHello arrayPlusHello = new ArrayPlusHello();
-                arrayPlusHello.ArrPlusHello(arrayPlusHello.inputValue());
+                arrayPlusHello.arrPlusHello(arrayPlusHello.inputValue());
             case 6:
                 ArrayToBoolean arrayToBoolean = new ArrayToBoolean();
                 arrayToBoolean.arrToBool(arrayToBoolean.inputValue());
@@ -56,14 +60,14 @@ public class Main {
                 HowMoney howMoney = new HowMoney();
                 howMoney.decision();
             case 8:
-                Cycles WhileCycle = new Cycles();
-                WhileCycle.WhileCycle();
+                Cycles whileCycle = new Cycles();
+                whileCycle.whileCycle();
             case 9:
                 Cycles doWhile = new Cycles();
                 doWhile.doWhileCycle();
             case 10:
                 Cycles forEach = new Cycles();
-                forEach.OutSymbols(forEach.forEachCycle());
+                forEach.forEachCycle(forEach.insertArr());
             default:
                 break;
         }

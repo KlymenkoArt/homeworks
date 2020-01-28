@@ -23,7 +23,5 @@ public class HowMoney {
             System.out.println("Идем спать");
         else
             System.out.println("Условие не покрывает данный вариант");
-
         }
-
 }

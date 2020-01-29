@@ -1,14 +1,12 @@
 package operators;
 
-import com.sun.xml.internal.ws.encoding.soap.SOAP12Constants;
-
 import java.util.Random;
 import java.util.Scanner;
 
 public class Cycles {
     private Scanner in = new Scanner(System.in);
 
-    public void WhileCycle() {
+    public void whileCycle() {
         System.out.println("Enter your number:");
         int number = in.nextInt();
 
@@ -28,7 +26,7 @@ public class Cycles {
         } while (number >= 10);
     }
 
-    public int[] forEachCycle() {
+    public int[] insertArr() {
         Random rand = new Random();
         int index = rand.nextInt(15);
         int[] arr = new int[index];
@@ -40,7 +38,7 @@ public class Cycles {
         return arr;
     }
 
-    public void OutSymbols(int[] arr) {
+    public void forEachCycle(int[] arr) {
         System.out.println(" ");
         System.out.println("Your number: ");
         for (int i : arr) {
@@ -49,4 +47,3 @@ public class Cycles {
         }
     }
 }
-

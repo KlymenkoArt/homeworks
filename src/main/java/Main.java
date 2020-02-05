@@ -1,3 +1,5 @@
+import ClassesAndObjects.Test;
+import ClassesAndObjects.TestOOP;
 import dataTypes.ArrayToString;
 import dataTypes.ArrayToBoolean;
 import dataTypes.ArrayPlusHello;
@@ -6,6 +8,7 @@ import dataTypes.EvenOrOdd;
 import dataTypes.Factorial;
 import operators.HowMoney;
 import operators.Cycles;
+
 import java.util.Scanner;
 
 
@@ -68,6 +71,9 @@ public class Main {
             case 10:
                 Cycles forEach = new Cycles();
                 forEach.forEachCycle(forEach.insertArr());
+            case 11:
+                Test test = new Test("Hi ");
+                Test test2 = new Test();
             default:
                 break;
         }

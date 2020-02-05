@@ -1,5 +1,4 @@
-import ClassesAndObjects.Test;
-import ClassesAndObjects.TestOOP;
+import classesAndObjects.Test;
 import dataTypes.ArrayToString;
 import dataTypes.ArrayToBoolean;
 import dataTypes.ArrayPlusHello;
@@ -10,7 +9,6 @@ import operators.HowMoney;
 import operators.Cycles;
 
 import java.util.Scanner;
-
 
 public class Main {
     public static void main(String[] args) {

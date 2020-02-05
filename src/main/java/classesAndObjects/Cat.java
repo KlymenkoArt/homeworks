@@ -1,4 +1,4 @@
-package ClassesAndObjects;
+package classesAndObjects;
 
 public class Cat implements Animals {
 

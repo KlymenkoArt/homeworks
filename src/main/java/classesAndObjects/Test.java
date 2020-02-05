@@ -1,4 +1,4 @@
-package ClassesAndObjects;
+package classesAndObjects;
 
 public class Test {
     public Test() {

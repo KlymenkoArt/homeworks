@@ -1,4 +1,4 @@
-package Modifiers;
+package modifiers;
 
 public class Methods {
     public void say(String str) {

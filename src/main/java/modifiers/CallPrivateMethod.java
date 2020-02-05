@@ -1,4 +1,4 @@
-package Modifiers;
+package modifiers;
 
 public class CallPrivateMethod {
     public static void main(String[] args) {

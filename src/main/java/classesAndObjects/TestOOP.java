@@ -1,4 +1,4 @@
-package ClassesAndObjects;
+package classesAndObjects;
 
 public class TestOOP {
     public static void main(String[] args) {

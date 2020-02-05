@@ -1,4 +1,4 @@
-package ClassesAndObjects;
+package classesAndObjects;
 
 import static java.lang.String.valueOf;
 

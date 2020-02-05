@@ -1,4 +1,4 @@
-package Modifiers;
+package modifiers;
 
 public class CallMethods extends Methods {
 

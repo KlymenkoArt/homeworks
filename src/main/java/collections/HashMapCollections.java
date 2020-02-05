@@ -1,4 +1,4 @@
-package Collections;
+package collections;
 
 public class HashMapCollections {
     public static void main(String[] args) {

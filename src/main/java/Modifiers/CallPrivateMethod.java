@@ -5,6 +5,6 @@ public class CallPrivateMethod {
         Methods methods = new Methods();
         methods.high(178);
         methods.say("Hello!");
-        Methods.arara("Dratuti!");
+        Methods.sleep();
     }
 }

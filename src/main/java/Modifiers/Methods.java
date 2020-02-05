@@ -12,10 +12,12 @@ public class Methods {
     protected void age(int a) {
         System.out.println("I am " + a + "years old");
     }
+
     void high (int h) {
         System.out.println("my high is " + h);
     }
-    static void arara (String say){
-        System.out.println(say);
+
+    static void sleep (){
+        System.out.println("I`m sleeping");
     }
 }
